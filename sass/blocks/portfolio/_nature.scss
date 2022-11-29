@@ -1,0 +1,33 @@
+.nature {
+}
+
+.nature__inner {
+  padding-bottom: 1020px;
+  background-image: url("../images/Portfolio/nature-1.webp"),
+    url("../images/Portfolio/nature-2.webp"),
+    url("../images/Portfolio/nature-3.webp"),
+    url("../images/Portfolio/nature-4.webp"),
+    url("../images/Portfolio/nature-5.webp"),
+    url("../images/Portfolio/nature-6.webp"),
+    url("../images/Portfolio/nature-7.webp");
+  background-repeat: no-repeat;
+  background-position: top right, top 240px right, top 495px left,
+    top 495px center, top 495px right, top 935px left, top 935px right;
+}
+
+.nature__content {
+  width: 100%;
+  max-width: 760px;
+}
+
+.nature__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #424242;
+}
+
+.nature__text-p {
+  margin-bottom: 10px;
+}
