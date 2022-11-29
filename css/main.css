@@ -1374,7 +1374,7 @@ img {
 .canteen__inner {
   background-image: url("../images/Portfolio/canteen-2.webp"), url("../images/Portfolio/canteen-3.webp"), url("../images/Portfolio/canteen-1.webp"), url("../images/Portfolio/canteen-4.webp"), url("../images/Portfolio/canteen-5.webp");
   background-repeat: no-repeat;
-  background-position: top 234px left, top 234px left 400px, top 22px right, top 684px left, top 684px right;
+  background-position: top 234px left, top 234px left 400px, top 22px right, top 615px left, top 615px right;
 }
 
 .canteen__title {
@@ -1387,7 +1387,7 @@ img {
 }
 
 .canteen__content {
-  margin-bottom: 480px;
+  margin-bottom: 440px;
   width: 100%;
   max-width: 762px;
 }
