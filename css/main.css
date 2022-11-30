@@ -1055,10 +1055,18 @@ img {
     font-size: 25px;
     line-height: 34px;
   }
+  .publication__list {
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
   .publication__item {
-    padding-top: 0;
+    padding: 0;
     max-width: 300px;
-    border-right: 0;
+    border: 0;
+  }
+  .publication__item:nth-child(2n) {
+    padding-left: 0;
+    border-bottom: 1px solid #aea38b;
   }
   .publication-list__title {
     margin-bottom: 10px;
@@ -1072,6 +1080,9 @@ img {
   }
   .publication__item--text {
     margin-bottom: 10px;
+  }
+  .publication-list__link {
+    margin-bottom: 40px;
   }
 }
 .portfolio-hero__inner {
