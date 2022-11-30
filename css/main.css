@@ -945,6 +945,35 @@ img {
   margin-top: 50px;
 }
 
+@media only screen and (max-width: 576px) {
+  .awards {
+    padding-bottom: 100px;
+  }
+  .awards__title {
+    margin-bottom: 40px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .awards__item {
+    width: 300px;
+    display: inline-block;
+    align-items: flex-start;
+  }
+  .awards-list__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .awards-list__text {
+    font-size: 14px;
+  }
+  .awards-list__link {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 16px 110px 15px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
 .publication {
   padding-bottom: 140px;
 }
