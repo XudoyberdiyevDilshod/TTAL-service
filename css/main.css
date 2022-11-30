@@ -1561,6 +1561,71 @@ img {
   color: #424242;
 }
 
+.form {
+  padding: 120px 0 142px;
+  background-color: #aea38b;
+}
+
+.form__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 63px;
+  color: #ffffff;
+}
+
+.form__text {
+  margin: 0;
+  margin-bottom: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+input {
+  width: 100%;
+  max-width: 355px;
+  margin-right: 40px;
+  padding: 18px 0 17px 22px;
+  background-color: #aea38b;
+  border: 1px solid #fff;
+}
+
+input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+input:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.button {
+  width: 360px;
+  padding: 18px 0 17px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #D8B152;
+  border: 1px solid transparent;
+}
+
 .site-header--media {
   background-image: none;
   padding: 0;
