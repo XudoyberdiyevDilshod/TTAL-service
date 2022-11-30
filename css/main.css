@@ -1046,6 +1046,34 @@ img {
   background-color: #d8b152;
 }
 
+@media only screen and (max-width: 576px) {
+  .publication {
+    padding-bottom: 80px;
+  }
+  .publication__title {
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .publication__item {
+    padding-top: 0;
+    max-width: 300px;
+    border-right: 0;
+  }
+  .publication-list__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  .publication-list__text {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .publication__item--text {
+    margin-bottom: 10px;
+  }
+}
 .portfolio-hero__inner {
   padding-bottom: 462px;
   width: 100%;
